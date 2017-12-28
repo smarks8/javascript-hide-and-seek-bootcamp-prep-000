@@ -19,7 +19,7 @@ function deepestChild(){
   
   var last = list[list.length-1]
   
-  return querySelector(last.innerHTML)
+  return document.querySelector(last.innerHTML)
   
 }
 
